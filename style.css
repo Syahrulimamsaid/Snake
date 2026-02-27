@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#board {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(20, 25px);
+  grid-template-rows: repeat(20, 25px);
+  gap: 1px;
+  width: fit-content;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  background: #b8b8b8;
+}
+
+.cell:hover{
+  background: aqua;
+}
